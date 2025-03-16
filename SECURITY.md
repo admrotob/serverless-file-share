@@ -1,5 +1,4 @@
 # Reporting Security Issues
----
 
 We kindly ask that you *do not* open a public GitHub issue to report security concerns.
 
