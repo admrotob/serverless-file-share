@@ -2,7 +2,10 @@
 
 namespace Ui.Helpers
 {
-    public static class EmailValidator
+    /// <summary>
+    /// A static collection of Email Validation APIs.
+    /// </summary>
+    public static class EmailValidators
     {
         /// <summary>
         /// Takes a given string and uses the System.Net.Mail API to validate that supplied input is a valid email.
