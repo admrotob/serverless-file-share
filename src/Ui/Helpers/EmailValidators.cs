@@ -14,7 +14,7 @@ namespace Ui.Helpers
         /// <returns>bool (true/false)</returns>
         public static bool IsValidEmail(string input)
         {
-            MailAddress result;
+            MailAddress? result;
             System.Net.Mail.MailAddress.TryCreate(input, out result);
 
             if (result == null)
